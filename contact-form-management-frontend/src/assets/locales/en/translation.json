@@ -1,0 +1,123 @@
+{
+    "welcome": "Welcome",
+    "messages": "Messages",
+    "users": "Users",
+    "reports": "Reports",
+    "home": "Home",
+    "login": "Login",
+    "logout": "Logout",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+
+
+    "contactUs": "Contact Us",
+    "formSubmittedSuccessfully": "Form submitted successfully.",
+    "errorSubmittingForm": "An error occurred while submitting the form.",
+    "fullName": "Full Name",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "country": "Country",
+    "selectCountry": "Select a country",
+    "message": "Message",
+    "submit": "Submit",
+
+
+  "Add New User": "Add New User",
+  "Username": "Username",
+  "Role": "Role",
+  "Password": "Password",
+  "Profile Picture:": "Profile Picture:",
+  "Reader": "Reader",
+  "Add User": "Add User",
+  "Please make sure to fill all of the fields": "Please make sure to fill all of the fields",
+  "User added successfully.": "User added successfully.",
+  "User could not be added.": "User could not be added.",
+
+
+  "userPage": "User Page",
+  "username": "Username:",
+  "role": "Role:",
+  "password": "Password:",
+  "changePassword": "Change Password",
+  "passwordChanged": "Password changed",
+  "passwordChangeError": "New password could not be saved. Make sure the password field is not empty.",
+  "profilePicture": "Profile Picture:",
+  "changeProfilePicture": "Change Profile Picture:",
+  "setAsProfilePicture": "Set as Profile Picture",
+  "profilePictureChanged": "Profile picture has been changed.",
+  "profilePictureChangeError": "Profile image could not be changed."
+
+
+  , 
+ "contactFormManagementSystems": "Contact Form Management Systems",
+  "username": "Username",
+  "password": "Password",
+  "login": "Login",
+  "switchToLightMode": "Switch to Light Mode",
+  "switchToDarkMode": "Switch to Dark Mode"
+  
+
+  ,
+
+  "messageDetails": "Message Details",
+  "messageId": "Message ID:",
+  "senderName": "Sender Name:",
+  "messageDetailsLabel": "Message Details:",
+  "gender": "Gender:",
+  "country": "Country:",
+  "sentDate": "Sent Date:",
+  "deleteMessage": "Delete Message",
+  "messageDeleted": "Message deleted",
+  "messageDeleteError": "Message could not be deleted",
+  "confirmDeletion": "Confirm Deletion",
+  "confirmDeletionBody": "Are you sure you want to delete this message?",
+  "cancel": "Cancel",
+  "delete": "Delete",
+
+
+  "messages": "Messages",
+  "sortBy": "Sort By",
+  "dateDescending": "Date Descending",
+  "dateAscending": "Date Ascending",
+  "senderNameAscending": "Sender Name (A-Z)",
+  "senderNameDescending": "Sender Name (Z-A)",
+  "filterBy": "Filter By",
+  "male": "Male",
+  "female": "Female",
+  "read": "Read",
+  "unread": "Unread",
+  "name": "Name",
+  "message": "Message",
+  "delete": "Delete",
+  "confirmDelete": "Delete Confirmation",
+  "deleteMessageConfirm": "Are you sure you want to delete this message?",
+  "deleteError": "An error occurred while deleting the message.",
+  "loadMore": "Load More",
+  "close": "Close",
+
+  "pageNotFound": "The page you are looking for does not exist",
+   "notAuthorized": "You are not authorized to view this page.",
+  "takeMeBackHome": "Take me back home",
+
+
+  "reportDashboard": "Report Dashboard",
+  "countryMessageDistribution": "Country-wise Message Distribution:",
+  "genderMessageDistribution": "Gender-wise Message Distribution:",
+
+  "usersTitle": "Users",
+  "addNewUser": "Add New User",
+  "username": "Username",
+  "role": "Role",
+  "profilePic": "Profile Pic",
+  "reader": "reader",
+  "clickToManage": "Click to Manage",
+
+  "prevPage": "Previous",
+  "nextPage" : "Next",
+   "status" : "Status"
+  ,
+   "page" : "Page",
+  "of": "of"
+  }
+  

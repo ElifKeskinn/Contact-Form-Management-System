@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background: linear-gradient(135deg, #262322, #867a7c, #afa8af);
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 2000px;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+  transition: transform 0.3s ease;
+}
+
+.language-selector {
+  margin: 15px;
+  color: #fff;
+}
+
+.language-selector select {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.custom-select {
+  position: absolute;
+  top: 10px;
+  right: 110px;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+
+/* HomePage Styles */
+.homepage-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.homepage-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.homepage-login button {
+  margin-top: 30px;
+  padding: 20px 40px;
+  font-size: 1.6rem;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-info p {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+
+
+/* Card Styles */
+.card {
+  margin: 60px;
+  padding: 60px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.card-header {
+  font-size: 3rem;
+}
+
+.card-body {
+  padding: 3rem;
+}
+
+
+.pagination-controls {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 3px;
+  position: sticky !important;
+  bottom: 0;
+  left: 0;
+}
+
+.pagination-controls button {
+  background-color: #4d4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-controls button:disabled {
+  background-color: #dcdcdc;
+  cursor: not-allowed;
+}
+
+.pagination-controls button:hover:not(:disabled) {
+  background-color: #000000;
+}
+
+.pagination-controls span {
+  font-size: 14px;
+  color: #333;
+}
+
+
+
+
+
+/* Responsive settings */
+@media (max-width: 768px) {
+  .sidebar {
+    height: 150px;
+    padding: 0 60px;
+  }
+
+  .card {
+    margin: 40px;
+    padding: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 100%;
+    margin: 30px;
+    padding: 30px;
+  }
+
+  .table {
+    font-size: 1.5rem;
+  }
+}
